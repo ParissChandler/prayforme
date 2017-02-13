@@ -1,0 +1,39 @@
+.boxOne{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 800px;
+  width: 40%;
+  float: left;
+  background: url(https://ih0.redbubble.net/image.138247417.0876/flat,800x800,075,t.jpg);
+}
+button{
+  border:1px solid clear;
+  border-radius: 10px;
+  height: 30px;
+  min-width: 20%;
+  margin-left: 40%;
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background: url(http://media.giphy.com/media/muiw9mM96E5AQ/giphy.gif);
+  background-size: cover;
+}
+input{
+  border-radius: 10px;
+  float: left;
+  height: 30px;
+  width: 30%;
+  margin: calc(10% - 4px);
+  background: url(http://media.giphy.com/media/muiw9mM96E5AQ/giphy.gif);
+  background-size: cover;
+}
+#result{
+  margin-left: 34%;
+}
+#btnAdd,#btnSub,#btnMult,#btnDiv,#btnMod{
+  border:1px solid clear;
+  height: 30px;
+  min-width: 20%;
+}
